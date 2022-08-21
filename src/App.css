@@ -1,0 +1,118 @@
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10rem;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  border-radius: 0.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/* NAVBAR */
+
+.nav-config{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 0.2rem;
+}
+
+#s-style{
+  width:9rem;
+  height: 9rem;
+}
+
+#dev{
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 3rem;
+  position: relative;
+  right: 1.8rem;
+}
+
+
+/* FOOTER */
+
+.style-footer{
+  margin-top: 15rem;
+    height: 5rem;
+    margin: 1rem 1rem 1rem 1rem;
+}
+.style-row-footer{
+    width:100%;
+    height: 10.5rem;
+    
+
+}
+#linkedin-img{ 
+     border-radius: 4rem;
+  width: 4rem;
+  height: 4rem;
+
+}
+#github-img{
+    width: 4rem;
+    height: 4rem;
+
+}
+
+
+
+
+.background-content{
+  background-color: #ffa712;
+  border-radius: 0.5rem;
+}
+.button-repo{
+  border: 0.1rem solid #ffa712 !important;
+}
+
+
+.imgs-flex{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.signo-mas{
+  height: 5rem;
+  width: 10rem;
+}
+.signo-firebase{
+  height: 9rem;
+  width: 9rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
